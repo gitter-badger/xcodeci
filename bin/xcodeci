@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'xcodeci'
+
+if ARGV[0] == 'clear_all'
+  puts "This command will remove all the working copies and any configuration file."
+  print "Are you sure ?[yn] "
+  STDOUT.flush  
+  answer = STDIN.gets.chomp 
+  if  answer.downcase != 'y'
+    puts "Operation cancelled. Exit"
+    exit 0
+  end
+
+  FileUtils.rm_r(Xcodeci::HOME)
+  exit(0)
+end
+
+#Xcodeci::Command.run(*ARGV)
+
+while true
+   Xcodeci::Command.run(*ARGV)
+   sleep 60 * 5
+end
+
+

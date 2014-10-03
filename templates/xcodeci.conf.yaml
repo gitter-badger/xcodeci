@@ -1,0 +1,18 @@
+---
+# App_Config:
+#   :DROPBOX_FOLDER:    '/Users/ignazio/Dropbox/Public/'
+#   :DROPBOX_USER_ID:   '792862'
+
+
+# SampleApp1:
+#   :REPO_URL:         'git@github.com:ignazioc/sample_repo_1.git'
+#   :APP_NAME:         'SampleApp-1'
+#   :TARGET_BRANCH:    'master'
+#   :WORKSPACE:        'SampleApp 1.xcworkspace'
+#   :SCHEME:           'SampleApp 1'
+# SampleApp2:
+#   :REPO_URL:         'git@github.com:ignazioc/sample_repo_2.git'
+#   :APP_NAME:         'SampleApp-2'
+#   :TARGET_BRANCH:    'master'
+#   :WORKSPACE:        'SampleApp 1.xcworkspace'
+#   :SCHEME:           'SampleApp 1'
