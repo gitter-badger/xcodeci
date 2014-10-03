@@ -1,16 +1,22 @@
 ---
-# App_Config:
-#   :DROPBOX_FOLDER:    '/Users/ignazio/Dropbox/Public/'
-#   :DROPBOX_USER_ID:   '792862'
+App_Config:
+     #The public dropbox folder on your machine
+    :DROPBOX_FOLDER:    '/Users/username/Dropbox/Public/'
+
+    #You can find it when you share a file stored on the
+    #public folder like this one https://dl.dropboxusercontent.com/u/792862/avatar_grumpy.png
+    #In this example the user id is 792862
+    #The user id is used to crete the links on the html report for install the application.
+    :DROPBOX_USER_ID:   '792862'
 
 
-# SampleApp1:
-#   :REPO_URL:         'git@github.com:ignazioc/sample_repo_1.git'
-#   :APP_NAME:         'SampleApp-1'
-#   :TARGET_BRANCH:    'master'
-#   :WORKSPACE:        'SampleApp 1.xcworkspace'
-#   :SCHEME:           'SampleApp 1'
-# SampleApp2:
+# SampleApp1:                                                      # <- This is just a mnemonic name for the project, don't use spaces.
+#   :REPO_URL:         'git@github.com:ignazioc/sample_repo_1.git' # <- This it the git repository
+#   :APP_NAME:         'SampleApp-1'                               # <- This is used as a name for the output forlder, don't use spaces
+#   :TARGET_BRANCH:    'master'                                    # <- The branch that you want to build
+#   :WORKSPACE:        'SampleApp 1.xcworkspace'                   # <- The name of the workspace
+#   :SCHEME:           'SampleApp 1'                               # <- the name of the scheme that you want to build / test
+# SampleApp2:                                                      # <- Add as many project as you want
 #   :REPO_URL:         'git@github.com:ignazioc/sample_repo_2.git'
 #   :APP_NAME:         'SampleApp-2'
 #   :TARGET_BRANCH:    'master'
