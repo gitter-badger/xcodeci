@@ -26,7 +26,7 @@ The script runs in a loop and every five minutes it:
 
 How it's looks like
 ===================
-This the output on console
+This is the output on console
 
 ![console output](https://dl.dropboxusercontent.com/u/792862/Screenshot%202014-10-03%2011.45.47.png)
 

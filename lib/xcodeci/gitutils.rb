@@ -34,7 +34,7 @@ module Xcodeci
     end
 
     def get_commit_lists      
-      last_commit = %x(git log  -1 --date-order --pretty=format:"%h %ce").split(/\n/)
+      last_commit = %x(git log  -10 --date-order --pretty=format:"%h %ce").split(/\n/)
       # a single line shoud be in this format  "e2d4a86 ignaziocgmail.com"
       last_commit
     end

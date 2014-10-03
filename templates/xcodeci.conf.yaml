@@ -16,7 +16,7 @@ App_Config:
 #   :TARGET_BRANCH:    'master'                                    # <- The branch that you want to build
 #   :WORKSPACE:        'SampleApp 1.xcworkspace'                   # <- The name of the workspace
 #   :SCHEME:           'SampleApp 1'                               # <- the name of the scheme that you want to build / test
-# SampleApp2:                                                      # <- Add as many project as you want
+# SampleApp2:                                                      # <- Add as many projects as you want
 #   :REPO_URL:         'git@github.com:ignazioc/sample_repo_2.git'
 #   :APP_NAME:         'SampleApp-2'
 #   :TARGET_BRANCH:    'master'

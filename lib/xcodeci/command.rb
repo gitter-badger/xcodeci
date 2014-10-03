@@ -209,7 +209,7 @@ module Xcodeci
           reporter = HtmlReporter.new File.join(Xcodeci::HOME, "data.yaml") , @@dropbox_user_id
           output = File.join(root_output_folder, 'index.html')
           File.open(output, 'w') { |file| file.write(reporter.html_report) }
-
+          puts "You report it's available at: https://dl.dropboxusercontent.com/u/#{@@dropbox_user_id}/xcodeci/index.html"
           %x(open -a Safari #{output})
       end
       
