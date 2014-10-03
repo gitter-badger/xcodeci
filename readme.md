@@ -3,7 +3,7 @@ xcodeci
 
 Ruby script for build/test/archive/distribuite iOS application.
 
-This script can be uset to create a simple continuous integration service for xcode.
+This script can be uses to create a simple continuous integration service for xcode.
 
 The project is still in development, **any contribution will be appreciate.**
 
