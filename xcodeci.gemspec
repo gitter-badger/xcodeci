@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'xcodeci/version'
 
 Gem::Specification.new do |spec|
-	spec.name          = "hola_ignazioc"
+	spec.name          = "XcodeCI"
 	spec.version       = Xcodeci::VERSION
 	spec.authors       = ["Ignazio Calò"]
 	spec.email         = ["ignazioc@gmail.com"]
