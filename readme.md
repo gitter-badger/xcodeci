@@ -1,5 +1,6 @@
 xcodeci
 =======
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/ignazioc/xcodeci?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Ruby script for build/test/archive/distribuite iOS application.
 
